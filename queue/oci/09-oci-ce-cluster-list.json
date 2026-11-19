@@ -1,0 +1,35 @@
+{
+  "slug": "oci-ce-cluster-list",
+  "title": "List Kubernetes Clusters",
+  "category": "Oracle Cloud",
+  "summary": "Build the oci ce cluster list command with its documented scope and filters.",
+  "command": [
+    "oci",
+    "ce",
+    "cluster",
+    "list"
+  ],
+  "fields": [
+    {
+      "name": "--compartment-id",
+      "kind": "text",
+      "required": true
+    },
+    {
+      "name": "--limit",
+      "kind": "integer",
+      "required": false
+    },
+    {
+      "name": "--name",
+      "kind": "text",
+      "required": false
+    },
+    {
+      "name": "--page",
+      "kind": "text",
+      "required": false
+    }
+  ],
+  "source": "https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/ce/cluster/list.html"
+}

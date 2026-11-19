@@ -1,0 +1,35 @@
+{
+  "slug": "oci-os-bucket-list",
+  "title": "List Object Storage Buckets",
+  "category": "Oracle Cloud",
+  "summary": "Build the oci os bucket list command with its documented scope and filters.",
+  "command": [
+    "oci",
+    "os",
+    "bucket",
+    "list"
+  ],
+  "fields": [
+    {
+      "name": "--compartment-id",
+      "kind": "text",
+      "required": true
+    },
+    {
+      "name": "--limit",
+      "kind": "integer",
+      "required": false
+    },
+    {
+      "name": "--namespace-name",
+      "kind": "text",
+      "required": false
+    },
+    {
+      "name": "--page",
+      "kind": "text",
+      "required": false
+    }
+  ],
+  "source": "https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/os/bucket/list.html"
+}

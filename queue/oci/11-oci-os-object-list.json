@@ -1,0 +1,30 @@
+{
+  "slug": "oci-os-object-list",
+  "title": "List Object Storage Objects",
+  "category": "Oracle Cloud",
+  "summary": "Build the oci os object list command with its documented scope and filters.",
+  "command": [
+    "oci",
+    "os",
+    "object",
+    "list"
+  ],
+  "fields": [
+    {
+      "name": "--bucket-name",
+      "kind": "text",
+      "required": true
+    },
+    {
+      "name": "--limit",
+      "kind": "integer",
+      "required": false
+    },
+    {
+      "name": "--prefix",
+      "kind": "text",
+      "required": false
+    }
+  ],
+  "source": "https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/os/object/list.html"
+}

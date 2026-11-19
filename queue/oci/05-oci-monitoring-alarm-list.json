@@ -1,0 +1,35 @@
+{
+  "slug": "oci-monitoring-alarm-list",
+  "title": "List Monitoring Alarms",
+  "category": "Oracle Cloud",
+  "summary": "Build the oci monitoring alarm list command with its documented scope and filters.",
+  "command": [
+    "oci",
+    "monitoring",
+    "alarm",
+    "list"
+  ],
+  "fields": [
+    {
+      "name": "--compartment-id",
+      "kind": "text",
+      "required": true
+    },
+    {
+      "name": "--display-name",
+      "kind": "text",
+      "required": false
+    },
+    {
+      "name": "--limit",
+      "kind": "integer",
+      "required": false
+    },
+    {
+      "name": "--page",
+      "kind": "text",
+      "required": false
+    }
+  ],
+  "source": "https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/monitoring/alarm/list.html"
+}

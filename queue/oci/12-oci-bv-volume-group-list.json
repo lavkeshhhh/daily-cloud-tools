@@ -1,0 +1,40 @@
+{
+  "slug": "oci-bv-volume-group-list",
+  "title": "List Volume Groups",
+  "category": "Oracle Cloud",
+  "summary": "Build the oci bv volume-group list command with its documented scope and filters.",
+  "command": [
+    "oci",
+    "bv",
+    "volume-group",
+    "list"
+  ],
+  "fields": [
+    {
+      "name": "--compartment-id",
+      "kind": "text",
+      "required": true
+    },
+    {
+      "name": "--availability-domain",
+      "kind": "text",
+      "required": false
+    },
+    {
+      "name": "--display-name",
+      "kind": "text",
+      "required": false
+    },
+    {
+      "name": "--limit",
+      "kind": "integer",
+      "required": false
+    },
+    {
+      "name": "--page",
+      "kind": "text",
+      "required": false
+    }
+  ],
+  "source": "https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/bv/volume-group/list.html"
+}
