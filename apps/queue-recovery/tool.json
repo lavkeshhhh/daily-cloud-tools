@@ -1,0 +1,9 @@
+{
+  "slug": "queue-recovery",
+  "title": "Queue Recovery Calculator",
+  "category": "Service operations",
+  "summary": "Estimate when a worker pool will clear its backlog while new jobs continue to arrive.",
+  "released": "2026-11-20",
+  "edition": "daily",
+  "type": "calculator"
+}

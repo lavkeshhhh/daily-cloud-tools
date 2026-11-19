@@ -1,0 +1,31 @@
+[
+  {
+    "values": {},
+    "expect": {
+      "minutes": 15,
+      "spare": 20,
+      "needed": 7
+    }
+  },
+  {
+    "values": {
+      "workers": 4
+    },
+    "expect": {
+      "minutes": null,
+      "spare": 0,
+      "needed": 7
+    }
+  },
+  {
+    "values": {
+      "workers": 3,
+      "backlog": 0
+    },
+    "expect": {
+      "minutes": 0,
+      "spare": -10,
+      "needed": 4
+    }
+  }
+]
