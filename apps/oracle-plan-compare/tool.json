@@ -1,0 +1,8 @@
+{
+  "slug": "oracle-plan-compare",
+  "title": "Oracle Plan Compare",
+  "category": "Oracle Database",
+  "summary": "Compare two DBMS_XPLAN outputs and see which operations, row estimates and optimizer costs changed.",
+  "released": "2026-11-20",
+  "edition": "launch"
+}
