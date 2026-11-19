@@ -17,7 +17,7 @@ function updateCommand() {
 }
 form.addEventListener('input',updateCommand);
 form.addEventListener('submit',event=>{event.preventDefault();updateCommand();});
-document.getElementById('reset').onclick=()=>{form.reset();updateCommand();};
+document.getElementById('reset').onclick=()=>{HTMLFormElement.prototype.reset.call(form);updateCommand();};
 copy.onclick=async()=>{
   try {await navigator.clipboard.writeText(preview.textContent);statusLine.textContent='Command copied.';}
   catch {statusLine.textContent='Select and copy the command shown above.';}

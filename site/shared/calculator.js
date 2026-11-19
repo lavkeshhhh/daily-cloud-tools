@@ -24,5 +24,5 @@ function recalculate() {
 }
 calcForm.addEventListener('submit',event=>{event.preventDefault();recalculate();});
 calcForm.addEventListener('input',recalculate);
-document.getElementById('reset').onclick=()=>{calcForm.reset();recalculate();};
+document.getElementById('reset').onclick=()=>{HTMLFormElement.prototype.reset.call(calcForm);recalculate();};
 recalculate();
