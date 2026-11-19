@@ -1,0 +1,16 @@
+[
+  {
+    "values": {
+      "--compartment-id": "example-value"
+    },
+    "command": [
+      "oci",
+      "os",
+      "bucket",
+      "list"
+    ],
+    "required": [
+      "--compartment-id"
+    ]
+  }
+]

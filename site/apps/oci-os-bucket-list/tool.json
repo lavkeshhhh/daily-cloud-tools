@@ -1,0 +1,9 @@
+{
+  "slug": "oci-os-bucket-list",
+  "title": "List Object Storage Buckets",
+  "category": "Oracle Cloud",
+  "summary": "Build the oci os bucket list command with its documented scope and filters.",
+  "released": "2026-11-20",
+  "edition": "daily",
+  "type": "oci"
+}
