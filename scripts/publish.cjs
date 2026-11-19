@@ -17,7 +17,7 @@ function localDate(now=new Date()) {
 function nextTool(site,released) {
   const used=new Set(released.map(t=>t.slug));
   const calculator=recipes.find(r=>!used.has(r.slug));
-  const count=released.filter(t=>t.edition==='daily').length;
+  const count=released.filter(t=>t.type==='calculator'||t.type==='oci').length;
   if(calculator && count%2===0) return {type:'calculator',spec:calculator};
   const queue=path.join(root,'queue/oci');
   for(const file of fs.readdirSync(queue).filter(f=>f.endsWith('.json')).sort()) {

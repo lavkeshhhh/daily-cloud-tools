@@ -18,7 +18,7 @@ Open http://localhost:8000. Use Oracle Plan Compare's synthetic example or paste
 
 The GitHub Actions workflow is configured for 03:47 UTC, or 09:17 Asia/Kolkata, each day. GitHub controls actual queue timing. The same workflow supports Run workflow in the Actions tab. Only main is eligible. Concurrency serializes releases, and the publisher uses the current India date to identify a daily release even if the job crosses midnight UTC. A second run for the same local date rebuilds the catalog and redeploys the same content without creating a second application or making an empty commit. A missed date does not get a backdated release.
 
-The first launch app is Oracle Plan Compare. The first daily release is the Queue Recovery Calculator. A daily run does the following.
+The launch collection contains Oracle Plan Compare and Queue Recovery Calculator. The first hosted daily release adds an Object Storage bucket list command builder. A daily run does the following.
 
 1. Test known answers, invalid inputs, date boundaries, duplicate prevention and Oracle plan comparison.
 2. Pick the next unused solution. While both are available, alternate a general engineering calculator with a builder for one documented OCI list operation. The initial stock has six different calculation models and nine cached OCI command signatures.

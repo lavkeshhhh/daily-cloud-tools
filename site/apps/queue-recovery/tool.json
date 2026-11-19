@@ -4,6 +4,6 @@
   "category": "Service operations",
   "summary": "Estimate when a worker pool will clear its backlog while new jobs continue to arrive.",
   "released": "2026-11-20",
-  "edition": "daily",
+  "edition": "launch",
   "type": "calculator"
 }

@@ -34,8 +34,11 @@ function verify(site=path.resolve(__dirname,'../site')) {
       if(target.startsWith('https://')||target.startsWith('#')) continue;
       assert.ok(fs.existsSync(path.resolve(dir,target)),meta.slug+' broken asset '+target);
     }
-    if(meta.edition!=='daily') continue;
-    assert.ok(!days.has(meta.released),'Multiple daily releases for '+meta.released);days.add(meta.released);
+    if(meta.edition==='daily') {
+      assert.ok(!days.has(meta.released),'Multiple daily releases for '+meta.released);
+      days.add(meta.released);
+    }
+    if(!['calculator','oci'].includes(meta.type)) continue;
     const {dailyTool,runTool}=require(path.join(dir,'model.js'));
     assert.equal(dailyTool.slug,meta.slug);
     assertSpec(meta.type,dailyTool);
