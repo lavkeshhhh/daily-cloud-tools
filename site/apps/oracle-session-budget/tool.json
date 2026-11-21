@@ -1,0 +1,9 @@
+{
+  "slug": "oracle-session-budget",
+  "title": "Oracle Session Budget",
+  "category": "Oracle Database",
+  "summary": "Size an application pool against a database session budget, including replicas that overlap during rollout.",
+  "released": "2026-11-21",
+  "edition": "daily",
+  "type": "calculator"
+}

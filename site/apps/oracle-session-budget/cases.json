@@ -1,0 +1,21 @@
+[
+  {
+    "values": {},
+    "expect": {
+      "maximum": 40,
+      "peak": 450,
+      "headroom": -50
+    }
+  },
+  {
+    "values": {
+      "surge": 0,
+      "pool": 32
+    },
+    "expect": {
+      "maximum": 50,
+      "peak": 256,
+      "headroom": 144
+    }
+  }
+]
