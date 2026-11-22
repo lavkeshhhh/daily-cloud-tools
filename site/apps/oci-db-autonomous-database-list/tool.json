@@ -1,0 +1,9 @@
+{
+  "slug": "oci-db-autonomous-database-list",
+  "title": "List Autonomous Databases",
+  "category": "Oracle Cloud",
+  "summary": "Build the oci db autonomous-database list command with its documented scope and filters.",
+  "released": "2026-11-22",
+  "edition": "daily",
+  "type": "oci"
+}

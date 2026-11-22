@@ -1,0 +1,16 @@
+[
+  {
+    "values": {
+      "--compartment-id": "example-value"
+    },
+    "command": [
+      "oci",
+      "db",
+      "autonomous-database",
+      "list"
+    ],
+    "required": [
+      "--compartment-id"
+    ]
+  }
+]
