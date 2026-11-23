@@ -1,0 +1,20 @@
+[
+  {
+    "values": {},
+    "expect": {
+      "chunks": 8,
+      "left": 372,
+      "over": 0
+    }
+  },
+  {
+    "values": {
+      "window": 2000
+    },
+    "expect": {
+      "chunks": 0,
+      "left": 0,
+      "over": 700
+    }
+  }
+]

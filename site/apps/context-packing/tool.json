@@ -1,0 +1,9 @@
+{
+  "slug": "context-packing",
+  "title": "RAG Context Budget",
+  "category": "AI engineering",
+  "summary": "Find how many equal-sized retrieval chunks fit after reserving room for the prompt, history and answer.",
+  "released": "2026-11-23",
+  "edition": "daily",
+  "type": "calculator"
+}
