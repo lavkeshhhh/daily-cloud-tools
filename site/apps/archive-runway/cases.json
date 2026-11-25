@@ -1,0 +1,30 @@
+[
+  {
+    "values": {},
+    "expect": {
+      "days": 14,
+      "net": 60,
+      "usable": 840
+    }
+  },
+  {
+    "values": {
+      "generated": 30
+    },
+    "expect": {
+      "days": null,
+      "net": -6,
+      "usable": 840
+    }
+  },
+  {
+    "values": {
+      "free": 100
+    },
+    "expect": {
+      "days": 0,
+      "net": 60,
+      "usable": 0
+    }
+  }
+]
