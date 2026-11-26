@@ -1,0 +1,9 @@
+{
+  "slug": "oci-fs-file-system-list",
+  "title": "List File Systems",
+  "category": "Oracle Cloud",
+  "summary": "Build the oci fs file-system list command with its documented scope and filters.",
+  "released": "2026-11-26",
+  "edition": "daily",
+  "type": "oci"
+}
