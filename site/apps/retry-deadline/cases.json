@@ -1,0 +1,31 @@
+[
+  {
+    "values": {},
+    "expect": {
+      "total": 4600,
+      "wait": 1400,
+      "slack": 400
+    }
+  },
+  {
+    "values": {
+      "attempts": 1
+    },
+    "expect": {
+      "total": 800,
+      "wait": 0,
+      "slack": 4200
+    }
+  },
+  {
+    "values": {
+      "attempts": 5,
+      "cap": 300
+    },
+    "expect": {
+      "total": 5100,
+      "wait": 1100,
+      "slack": -100
+    }
+  }
+]

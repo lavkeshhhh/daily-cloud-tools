@@ -1,0 +1,9 @@
+{
+  "slug": "retry-deadline",
+  "title": "Retry Deadline Planner",
+  "category": "API engineering",
+  "summary": "Add up attempt timeouts and capped exponential backoff to check whether a retry policy fits its deadline.",
+  "released": "2026-11-27",
+  "edition": "daily",
+  "type": "calculator"
+}
