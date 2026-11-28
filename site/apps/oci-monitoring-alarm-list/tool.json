@@ -1,0 +1,9 @@
+{
+  "slug": "oci-monitoring-alarm-list",
+  "title": "List Monitoring Alarms",
+  "category": "Oracle Cloud",
+  "summary": "Build the oci monitoring alarm list command with its documented scope and filters.",
+  "released": "2026-11-28",
+  "edition": "daily",
+  "type": "oci"
+}

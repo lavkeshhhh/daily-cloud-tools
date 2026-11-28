@@ -1,0 +1,16 @@
+[
+  {
+    "values": {
+      "--compartment-id": "example-value"
+    },
+    "command": [
+      "oci",
+      "monitoring",
+      "alarm",
+      "list"
+    ],
+    "required": [
+      "--compartment-id"
+    ]
+  }
+]
